@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+.outer{
+   margin: 90px auto;
+   width: 100%;
+   height: 750px;
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+#ingcontainer{
+    
+    /* border: 1px solid black; */
+    width: 700px;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgb(0, 36, 6) 4%, rgb(45, 138, 9) 81%);
+
+    
+    
+    
+}
+
+.info{
+    border:1px solid black;
+    width: 700px;
+    height: 200px;
+    color: white;
+    background: linear-gradient(0deg, rgba(8,8,8,0.9064327485380117) 10%, rgba(0,0,0,1) 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gIng{
+/* border: 5px solid rgb(21, 104, 0); */
+width: 300px;
+height: 455px;
+background-image: url(./406px-NurgleCard.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
